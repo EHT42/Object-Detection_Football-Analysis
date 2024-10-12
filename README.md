@@ -7,4 +7,4 @@ Step 1:
 
 Unter input_vids sollte eine Szene als Video-File importiert werden. Im Anwendungsbeispiel sieht das so aus:
 
-![Rohes Videomaterial](https://jumpshare.com/v/vjiKDTPOivl4yWVcuBoU?b=6dy8nKtUnTT1OvrQoHfS)
+![Rohes Videomaterial](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHc0d2FvdTBiajBiN25ybm5yajZ1b2cwd2doNnp5dHBxdWVjMmY0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8LeIydH1KVC118Wg4E/giphy.gif)
