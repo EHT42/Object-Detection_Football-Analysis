@@ -7,4 +7,7 @@ Step 1:
 
 Unter input_vids sollte eine Szene als Video-File importiert werden. Im Anwendungsbeispiel sieht das so aus:
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe id="js_video_iframe" src="https://jumpshare.com/embed/vjiKDTPOivl4yWVcuBoU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<p align="center">
+Launch the utility: <br/>
+<img src="https://jumpshare.com/v/vjiKDTPOivl4yWVcuBoU?b=6dy8nKtUnTT1OvrQoHfS" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
