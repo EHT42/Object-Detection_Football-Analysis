@@ -14,7 +14,7 @@ Unter input_vids sollte eine Szene als Video-File importiert werden. Im Anwendun
 
 Step 2:
 Jetzt kann das pretrained Yolo-Modell über yolo.py benutzt werden für ein erstes Ergebnis:
-![2](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNW4ycWV3azMxa3lwYjRwbXdxanFsZGtsajA5eTRybml1dnExczBxNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/elUlCvaQakx9Sdv0V2/giphy.gif)
+![Pretrained Modell](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNW4ycWV3azMxa3lwYjRwbXdxanFsZGtsajA5eTRybml1dnExczBxNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/elUlCvaQakx9Sdv0V2/giphy.gif)
 
 Da in einem Fussballspiel viel los ist (viele bewegende Spieler, Ball, Schiedsrichter, etc.) sieht das ganze 
 natürlich etwas überladen aus, dennoch funktioniert das Tracking schon ganz ordentlich.
@@ -28,7 +28,7 @@ Im Ordner /training wird mit der preparing.ipynb das Set heruntergeladen und sä
 Im mitgelieferten Dataset ist eine YAML Datei, die in der train_yolo.py angegeben werden muss. Danach wird das Modell
 trainiert und das aktualisierte Modell wird in /training/runs/detect/weights gespeichert. Die Modelle werden in den 
 /models Ordner verschoben, danach kann die yolo_trained.py angewendet werden, um folgendes Ergebnis zu erhalten:
-![3](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXNlZG1rb2NkMndpNzlvamRocXltN2R5N2t1aG9kcWl3YW0wNDRocyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MzFozYme2qFKMqNMjX/giphy.gif)
+![Dataset-trained Modell](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXNlZG1rb2NkMndpNzlvamRocXltN2R5N2t1aG9kcWl3YW0wNDRocyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MzFozYme2qFKMqNMjX/giphy.gif)
 
 
 
