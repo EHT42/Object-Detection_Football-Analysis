@@ -12,7 +12,7 @@ Unter input_vids sollte eine Szene als Video-File importiert werden. Im Anwendun
 ![Rohes Videomaterial](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHc0d2FvdTBiajBiN25ybm5yajZ1b2cwd2doNnp5dHBxdWVjMmY0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8LeIydH1KVC118Wg4E/giphy.gif)
 
 
-Step 2(Preparing):
+Step 2 (Preparing):
 Jetzt kann das pretrained Yolo-Modell über yolo.py benutzt werden für ein erstes Ergebnis:
 
 ![Pretrained Modell](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2x1OG0xbG9mN2w4NjNyMTYzNmtuNm80bmVpZzg1YmR4djN0cm5jaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/elUlCvaQakx9Sdv0V2/giphy-downsized.gif)
