@@ -28,7 +28,7 @@ Im Ordner /training wird mit der preparing.ipynb das Set heruntergeladen und sä
 Im mitgelieferten Dataset ist eine YAML Datei, die in der train_yolo.py angegeben werden muss. Danach wird das Modell
 trainiert und das aktualisierte Modell wird in /training/runs/detect/weights gespeichert. Die Modelle werden in den 
 /models Ordner verschoben, danach kann die yolo_trained.py angewendet werden, um folgendes Ergebnis zu erhalten:
-![Dataset-trained Modell](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXNlZG1rb2NkMndpNzlvamRocXltN2R5N2t1aG9kcWl3YW0wNDRocyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MzFozYme2qFKMqNMjX/giphy.gif)
+![Dataset-trained Modell](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXNlZG1rb2NkMndpNzlvamRocXltN2R5N2t1aG9kcWl3YW0wNDRocyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MzFozYme2qFKMqNMjX/giphy-downsized.gif)
 
 
 
