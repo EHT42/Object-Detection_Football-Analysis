@@ -7,7 +7,4 @@ Step 1:
 
 Unter input_vids sollte eine Szene als Video-File importiert werden. Im Anwendungsbeispiel sieht das so aus:
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://jumpshare.com/v/vjiKDTPOivl4yWVcuBoU?b=6dy8nKtUnTT1OvrQoHfS" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+![Rohes Videomaterial](https://jumpshare.com/v/vjiKDTPOivl4yWVcuBoU?b=6dy8nKtUnTT1OvrQoHfS)
