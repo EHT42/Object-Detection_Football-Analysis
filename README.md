@@ -13,7 +13,7 @@ Unter input_vids sollte eine Szene als Video-File importiert werden. Im Anwendun
 
 
 Step 2:
-Jetzt kann man das pretrained Yolo-Modell über yolo.py benutzen, für ein erstes Ergebnis:
+Jetzt kann das pretrained Yolo-Modell über yolo.py benutzt werden für ein erstes Ergebnis:
 ![2](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNW4ycWV3azMxa3lwYjRwbXdxanFsZGtsajA5eTRybml1dnExczBxNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/elUlCvaQakx9Sdv0V2/giphy.gif)
 
 Da in einem Fussballspiel viel los ist (viele bewegende Spieler, Ball, Schiedsrichter, etc.) sieht das ganze 
