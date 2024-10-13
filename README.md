@@ -41,11 +41,8 @@ und gestyled. Im folgenden wird die main.py ausgeführt und folgende Aktionen au
 
 Die Bounding-Boxen werden entfernt und stattdessen wird eine Ellipse unter den Spielern (und dem Schiedsrichter) gezeichnet.
 Ebenfalls erscheint eine Track-ID des jeweiligen Objekts.
-Im nächsten Step werden die Ellipsen von den Farben her angepasst, sodass die der Teamfarbe entsprechend sind:
-
-![Ellipse_team_colors](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjhiZnZueTMzczF0bGg4dHQydXpra3U1ZDI5NzJxeW9qbTFuNnBlOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GW0W4Z0yPs4z4yg9tY/giphy.gif)
-
-Problem: Man sieht, dass der Ball nicht immer erkannt wird. Generell hat Yolo seine Schwachstelle im detecten von kleinen 
+Im nächsten Step werden die Ellipsen von den Farben her angepasst, sodass die der Teamfarbe entsprechend sind.
+Nächstes Problem: Man sieht, dass der Ball nicht immer erkannt wird. Generell hat Yolo seine Schwachstelle im detecten von kleinen 
 Objekten. Das grüne Dreieck ist nicht immer auf dem Ball. 
 
 ![ball tracking soft](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3c1M244b3ByNG9nZjl4N3kyenJ0aXBmY3E4aGppczBqZG1xZGo3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0ZpiL39jC6H6UFhJPd/giphy.gif)
