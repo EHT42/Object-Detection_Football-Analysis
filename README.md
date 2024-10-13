@@ -45,15 +45,16 @@ Im nächsten Step werden die Ellipsen von den Farben her angepasst, sodass die d
 
 ![Ellipse_team_colors](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjhiZnZueTMzczF0bGg4dHQydXpra3U1ZDI5NzJxeW9qbTFuNnBlOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GW0W4Z0yPs4z4yg9tY/giphy.gif)
 
-Im Anschluss darauf soll der Ball getracked werden:
-
-![ball_tracked_soft](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExazhnZHdoMXdzenhuYWN6MGVjdWNqcXI4N3JjeHBtMG9xZnFxMXEzciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0ZpiL39jC6H6UFhJPd/giphy-downsized.gif)
-
 Problem: Man sieht, dass der Ball nicht immer erkannt wird. Generell hat Yolo seine Schwachstelle im detecten von kleinen 
-Objekten. Das grüne Dreieckt ist nicht immer auf dem Ball. Um das Problem zu umgehen, wird Interpolation genutzt, um
+Objekten. Das grüne Dreieck ist nicht immer auf dem Ball. 
+
+![ball tracking soft](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3c1M244b3ByNG9nZjl4N3kyenJ0aXBmY3E4aGppczBqZG1xZGo3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0ZpiL39jC6H6UFhJPd/giphy.gif)
+
+Um das Problem zu umgehen, wird Interpolation genutzt, um
 fehlende Werte der Bounding-Boxes aufzufüllen:
 
-![ball_tracked_hard](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzVxaG1rczR6MjlqNGk3aHVkZGhmMm5sYWQ4Y2Jid21hZ3IxY2dweiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GW0W4Z0yPs4z4yg9tY/giphy-downsized.gif)
+![ball tracking full](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXMyd2pqZzhtbWRyeDZleDg2cW55MnIxazU2ejFhcmFoMG1jbDB0MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GW0W4Z0yPs4z4yg9tY/giphy-downsized.gif)
+
 
 Auch sollen die Spieler, die am nächsten zum Ball stehen detected werden, um später den Ballbesitzwert ermitteln zu
 können:
